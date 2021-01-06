@@ -1,19 +1,17 @@
 # Gatsby example
 
+This is the solution to the [issue 28431] (https://github.com/gatsbyjs/gatsby/issues/28431)
+
+Example from here [https://github.com/mui-org/material-ui] taken and removed layout as it was not required for this solution. 
+
 ## How to use
-
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
-
-```bash
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/gatsby
-cd gatsby
-```
 
 Install it and run:
 
 ```bash
 npm install
-npm run develop
+gatsby build
+gatsby serve
 ```
 
 ## The idea behind the example
